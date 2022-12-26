@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love is in the air</title>
+    <style>
+        body{
+            margin:0;
+            background-color: #106128;
+        }
+        #tabla1 > img{
+            width:21%;
+            margin:20px;
+            border: 3px solid white;
+        }
+        div{
+            padding:0;
+        }
+        #title{
+            background-color: #f78da7;
+        }
+        #confession{
+            background-color: #ff2b59;
+        }
+        #justwaves{
+            background-color: #ff2b59;
+        }
+        h1{
+            margin-top:30px;
+            margin-bottom:500px;
+            font-size:70px;
+            color: rgb(111, 49, 192);
+            text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h2{
+            margin-top:70;
+            margin-bottom:500px;
+            font-size:70px;
+            color: rgb(72, 33, 124);
+            text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #tabla1{
+            padding:20px;
+            border:40px solid transparent;
+            border-image: url(kepkeret.png) 30 stretch;
+            background-image: url(cork.png);
+        }
+        #main{
+            height:100%;
+        }
+        #livingroom{
+            width:69%;
+            margin-inline: 15%;
+        }
+        #year2022{
+            display:none;
+        }
+        #gift1{
+            position:absolute;
+            width:15%;
+            left:50%;
+            top:60%;
+        }
+        #gift1:hover{
+            width:17%;
+            left:49%;
+            top:56%;
+        }
+        #gift{
+            position:absolute;
+            width:200vw;
+            display:block;
+        }
+        .opengift{
+            animation: openGift 2s;
+        }
+        @keyframes openGift{
+            0%{
+                left:-50vw;
+                top:-150vh;;
+            }
+            25%{
+                left:-50vw;
+                top:-170vh;
+            }
+            100%{
+                left:-50vw;
+                top:100vh;
+            }
+        }
+    </style>
+    <script src="jquery-3.6.3.js"></script>
+</head>
+<body>
+    <div id="main">
+        <img id="livingroom" src="livingroom.png">
+        <img id="gift1" src="2022.png" onclick="gift2022()">
+    </div>
+    <div id="year2022">
+        <img id="gift" src="2022.png">
+        <div id="title">
+            <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 68.40555964653905,157.19882179675994 136.8111192930781,181.3976435935199 200,168 C 263.1888807069219,154.6023564064801 321.16108247422676,103.60824742268042 381,104 C 440.83891752577324,104.39175257731958 502.5445508100148,156.16936671575849 557,176 C 611.4554491899852,195.83063328424151 658.6607142857143,183.7142857142857 725,161 C 791.3392857142857,138.2857142857143 876.8125920471281,104.97349042709868 927,95 C 977.1874079528719,85.02650957290132 992.0889175257732,98.39175257731958 1050,109 C 1107.9110824742268,119.60824742268042 1208.8317378497793,127.459499263623 1281,131 C 1353.1682621502207,134.540500736377 1396.5841310751102,133.7702503681885 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ff577b" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><path d="M 0,400 C 0,400 0,266 0,266 C 59.60916789396171,290.0090206185567 119.21833578792342,314.0180412371134 175,306 C 230.78166421207658,297.9819587628866 282.73582474226805,257.93685567010306 347,256 C 411.26417525773195,254.06314432989694 487.83836524300443,290.2345360824743 547,285 C 606.1616347569956,279.7654639175257 647.9107142857143,233.12500000000003 707,229 C 766.0892857142857,224.87499999999997 842.5187776141385,263.2654639175258 902,286 C 961.4812223858615,308.7345360824742 1004.014175257732,315.81314432989694 1059,309 C 1113.985824742268,302.18685567010306 1181.4245213549339,281.4819587628866 1247,272 C 1312.5754786450661,262.5180412371134 1376.287739322533,264.2590206185567 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#eb144c" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg>
+            <h1>Szia, Kedvesem</h1>
+            <h1>;)</h1>
+            <h1>Ígéret szép szó...</h1>
+            <h1>készült mézeskalács...</h1>
+            <h1>Ha más nem, akkor a családnak add oda</h1>
+            <h1>Üdvözlöm őket <3</h1>
+            <h1>Gondoltam csinálok egy kis weboldalt karira</h1>
+            <h1>NEKED</h1>
+            <h1>Ehhez értek</h1>
+            <h1>...</h1>
+            <h1>Az Anna fürdő zárva van</h1>
+            <h1>smh</h1>
+            <h1>De attól még megyünk</h1>
+            <h1>Csak majd később</h1>
+            <h1 style="margin-bottom:0;">Előfordul az ilyen</h1>
+        </div>
+        <div id="justwaves"><svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,500 C 0,500 0,166 0,166 C 65.77927098674522,191.02614138438878 131.55854197349043,216.0522827687776 194,222 C 256.44145802650957,227.9477172312224 315.5451030927835,214.81701030927837 373,202 C 430.4548969072165,189.18298969072163 486.2610456553756,176.679675994109 545,164 C 603.7389543446244,151.320324005891 665.4107142857143,138.4642857142857 716,135 C 766.5892857142857,131.5357142857143 806.0960972017673,137.46318114874816 867,128 C 927.9039027982327,118.53681885125184 1010.2048969072164,93.68298969072164 1080,106 C 1149.7951030927836,118.31701030927836 1207.0843151693668,167.80486008836525 1265,184 C 1322.9156848306332,200.19513991163475 1381.4578424153165,183.0975699558174 1440,166 C 1440,166 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="#f74d72" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 250)"></path><path d="M 0,500 C 0,500 0,333 0,333 C 57.18703976435937,345.3227172312224 114.37407952871874,357.64543446244477 175,351 C 235.62592047128126,344.35456553755523 299.6907216494845,318.7409793814433 361,325 C 422.3092783505155,331.2590206185567 480.86303387334317,369.390648011782 531,382 C 581.1369661266568,394.609351988218 622.8571428571428,381.6964285714286 687,351 C 751.1428571428572,320.3035714285714 837.7083946980855,271.8236377025036 908,282 C 978.2916053019145,292.1763622974964 1032.3092783505153,361.00902061855675 1090,369 C 1147.6907216494847,376.99097938144325 1209.054491899853,324.1402798232695 1268,308 C 1326.945508100147,291.8597201767305 1383.4727540500735,312.4298600883652 1440,333 C 1440,333 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="#f78da7" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 250)"></path></svg></div>
+        <div id="confession">
+            <h2 style="margin-top:0;">De most</h2>
+            <h2>Most egy lista következik...</h2>
+            <h2>A dolgokról...</h2>
+            <h2>Amiket megváltoztatnék rajtad</h2>
+            <h2>1.</h2>
+            <h2>Semmit</h2>
+            <h2>hihi</h2>
+            <h2>Remélem jól beszartál</h2>
+            <h2>hahaha</h2>
+            <h2>Ok ez elég gagyi prank volt</h2>
+            <h2>De attól még komolyan gondoltam</h2>
+            <h2>You know</h2>
+            <h2>Tu es parfaite pour moi</h2>
+            <h2>...</h2>
+            <h2>Nélküled lehet, hogy még mindig a legjobb barátom Ozi lenne omg</h2>
+            <h2>Ez az oldal egy ilyen Kiss-Sára-féle élmény</h2>
+            <h2>Csak nem feltétlenül kell rááldozni a napodat</h2>
+            <h2 style="margin-bottom:0;">:D</h2>
+        </div>
+        <div><svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 76.04784688995213,155.88995215311004 152.09569377990425,178.7799043062201 260,177 C 367.90430622009575,175.2200956937799 507.665071770335,148.77033492822966 594,147 C 680.334928229665,145.22966507177034 713.2440191387559,168.13875598086125 813,160 C 912.7559808612441,151.86124401913875 1079.358851674641,112.67464114832535 1195,103 C 1310.641148325359,93.32535885167465 1375.3205741626793,113.16267942583733 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ff2b59" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><path d="M 0,400 C 0,400 0,266 0,266 C 93.41626794258374,288.2392344497608 186.8325358851675,310.47846889952154 270,307 C 353.1674641148325,303.52153110047846 426.0861244019138,274.32535885167465 538,253 C 649.9138755980862,231.67464114832535 800.822966507177,218.2200956937799 896,227 C 991.177033492823,235.7799043062201 1030.622009569378,266.79425837320576 1112,277 C 1193.377990430622,287.20574162679424 1316.688995215311,276.6028708133971 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ff2b59" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg></div>
+        <div id="collection">
+            <h2>Ez itt egy gyűjtemény lesz a 2022-es élményeinkről</h2>
+            <h2>Nyilván nem lesz itt minden</h2>
+            <h2>De tudod milyen feledékeny vagyok :D</h2>
+            <h2>Várok minden ajánlást és feltöltöm majd</h2>
+            <h2>Idézetek...</h2>
+            <h2>Képek...</h2>
+            <h2>Dalok...</h2>
+            <h2 style="margin-bottom:30px;">Vagy bármi más</h2>
+            <div id="tabla1">
+                <img src="received_1095978294662460.jpeg">
+                <img src="received_835948334308896.jpeg">
+                <img src="received_1124417061471317.jpeg">
+                <img src="received_1395942987589175.jpeg">
+                <img src="received_1891480067858663.jpeg">
+                <img src="Screenshot_20221217-142348_Instagram.jpg">
+                <img src="Snapchat-1754523447.jpg">
+                <img src="received_787609765941486.jpeg">
+                <img src="csakaszoki.png" style="border:none">
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){ 
+            $("#tabla1 img").each( function() {
+                var posneg = Math.floor( (Math.random() * 2)  );
+                if (posneg == 0) {posneg=-1} else {posneg=1};
+                var angle = Math.floor( (Math.random() * 5) * posneg );
+                $(this).css( 'transform', 'rotate(' + angle + 'deg)' );   
+                $(this).css( '-moz-transform', 'rotate(' + angle + 'deg)' );   
+                $(this).css( '-webkit-transform', 'rotate(' + angle + 'deg)' );
+                $(this).css( '-o-transform', 'rotate(' + angle + 'deg)' );
+            }); 
+        }); 
+
+        function deletePresent() {
+            document.getElementById("gift").style.display = "none"
+        }
+        function gift2022(){
+            document.getElementById("gift").classList.add("opengift")
+            setTimeout(deletePresent, 2000)
+            document.getElementById("main").style.display = "none"
+            document.getElementById("year2022").style.display = "block"
+        }
+    </script>
+</body>
+</html>
